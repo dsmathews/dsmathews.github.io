@@ -39,54 +39,78 @@
       </div>
     </nav>
   </header>
-  <div class="container-fluid big">
-    <div id="oneBigRow" class="row">
-      <div class="col-4-md col-12-sm"></div>
+  <div id="portCont" class="container">
+    <div id="portRow" class=row>
       <div class="col-4-md col-12-sm">
-        <div id="portfolio" class="card">
-          <div class="card-header">Portfolio</div>
-          <div class="card-body">
-            <p class="cardDirections">Click on a slide to go to the GitHub Repository for that project.</p>
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <a href="https://github.com/dsmathews/project1" target="_blank"><img class="d-block w-100" src="images/project1.gif"
-                      alt="First slide-Project 1"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="https://github.com/dsmathews/spa" target="_blank"><img class="d-block w-100" src="images/spa.gif"
-                      alt="First slide-Company Directory"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="https://github.com/dsmathews/ajaxHW" target="_blank"><img class="d-block w-100" src="images/ajaxHW.gif"
-                      alt="Third slide-Ajax Stock-Search"></a>
-                </div>
-              </div>
-              <a class="slideControl carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="slideControl carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-            <p class="cardDirections">Deployed Projects:</p>
-            <p class="cardDirections"><a id="projectlinks" href="https://dsmathews.github.io/project1/#">Universal Passport - Project 1</a></p>
-            <p class="cardDirections"><a id="projectlinks" href="https://dsmathews.github.io/spa/">Company Directory</a></p>
-            <p class="cardDirections"><a id="projectlinks" href="https://dsmathews.github.io/ajaxHW/">AJAX Stock-Search</a></p>
-            <p class="cardDirections"><a id="projectlinks" href="https://guarded-chamber-95838.herokuapp.com/">Employee Match Finder</a></p>
-            <p class="cardDirections"><a id="projectlinks" href="https://warm-earth-30735.herokuapp.com/index.html">GrocerEasy - Project 2</a></p>
-
-
-            
+        <div id='portCard' class="card mt-3" style="width: 18rem;">
+          <img class="card-img-top" src="images/project1.gif" alt="Card image cap">
+          <div id="cardBod" class="card-body">
+            <h5 id="portText" class="card-title">Universal Passport</h5>
+            <p id="portText" class="card-text">Disney'esque application to allow users to access their passport by facial-recognition technology and laguage translation software. Additional technologies used in this was the Face++ API, CORS Anywhere, and Fun Translations API.</p>
+            <a href="https://dsmathews.github.io/project1/#" id="portText" class="btn btn-primary border border-white">Application</a> <a href="https://github.com/dsmathews/project1"
+            id="portText" class="btn btn-primary border border-white">GitHub</a>
           </div>
         </div>
       </div>
-      <div class="col-4-md col-12-sm"></div>
+      <div class="col-4-md col-12-sm">
+        <div id="portCard" class="card mt-3" style="width: 18rem;">
+          <img class="card-img-top" src="images/project2c.gif" alt="Card image cap">
+          <div id="cardBod" class="card-body">
+            <h5 id="portText" class="card-title">Grocer Easy</h5>
+            <p id="portText" class="card-text">This application was designed to give users access information to their local farmers markets locations, operating hours, and inventories. Additional technologies used were the Google Geo-Location API, ZIP Code API, mySQL DB, Mustard UI.</p>
+            <a href="https://warm-earth-30735.herokuapp.com/index.html" id="portText" class="btn btn-primary border border-white">Application</a> <a href="https://github.com/walkforr/GrocerEasy"
+            id="portText" class="btn btn-primary border border-white">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4-md col-12-sm">
+          <div id="portCard" class="card mt-3" style="width: 18rem;">
+            <img class="card-img-top" src="images/employeematch2.gif" alt="Card image cap">
+            <div id="cardBod" class="card-body">
+              <h5 id="portText" class="card-title">Employee Finder</h5>
+              <p id="portText" class="card-text">Application designed in a "Match.com" format where users would fill out a small questionaire and the result would be their ideal office co-worker. Tools used: Bootstrap 4, HTML5, CSS3, mySQL, JavaScript, and jQuery.</p>
+              <a href="https://guarded-chamber-95838.herokuapp.com/" id="portText" class="btn btn-primary border border-white">Application</a> <a href="https://github.com/dsmathews/employeeFinder"
+              id="portText"  class="btn btn-primary border border-white">GitHub</a>
+            </div>
+          </div>
+        </div>
     </div>
+    <div id="portRow" class=row>
+        <div class="col-4-md col-12-sm">
+          <div id='portCard' class="card mt-3" style="width: 18rem;">
+            <img class="card-img-top" src="images/ajaxHW.gif" alt="Card image cap">
+            <div id="cardBod" class="card-body">
+              <h5 id="portText" class="card-title">Stock Update</h5>
+              <p id="portText" class="card-text">This appplication is designed to query the iextrading API to provide authentication and information on any stock symbol that the user chooses. Tools Used: Bootstrap 4, HTML5, CSS3, JavaScript, and jQuery. </p>
+              <a href="https://dsmathews.github.io/ajaxHW/" id="portText" class="btn btn-primary border border-white">Application</a> <a href="https://github.com/dsmathews/ajaxHW"
+              id="portText" class="btn btn-primary border border-white">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4-md col-12-sm">
+          <div id="portCard" class="card mt-3" style="width: 18rem;">
+            <img class="card-img-top" src="images/bamazon.gif" alt="Card image cap">
+            <div id="cardBod" class="card-body">
+              <h5 id="portText" class="card-title">Burdell Emporium</h5>
+              <p id="portText" class="card-text">A sample e-commerce storefront using a mySQL DB with a nod to the mythical Georgia Tech student, George P. Burdell.  Tools used: Bootstrap 4, HTML5, CSS3, JavaScript, jQuery, mySQL, Sequelize.</p>
+              <a href="https://cryptic-mountain-81091.herokuapp.com/" id="portText" class="btn btn-primary border border-white">Application</a> <a href="https://github.com/dsmathews/bamazon"
+              id="portText"  class="btn btn-primary border border-white">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4-md col-12-sm">
+            <div id="portCard" class="card mt-3" style="width: 18rem;">
+              <img class="card-img-top" src="images/kudos.gif" alt="Card image cap">
+              <div id="cardBod" class="card-body">
+                <h5 id="portText" class="card-title">Kudos!</h5>
+                <p id="portText" class="card-text">An application that will post "thank you" notes or "Kudos" to fellow encourage users. Database used in this example is MONGO. Tools used: Bootstrap 4, HTML5, CSS3, JavaScript, jQuery, MONGO DB, and Mongoose.   </p>
+                <a href="https://quiet-depths-14703.herokuapp.com/" id="portText" class="btn btn-primary border border-white">Application</a> <a href="https://github.com/dsmathews/kudos"
+                id="portText" class="btn btn-primary border border-white">GitHub</a>
+              </div>
+            </div>
+          </div>
+      </div>
   </div>
-
 
   <footer class="footer">
     <div class="container-fluid footer1">

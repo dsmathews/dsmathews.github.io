@@ -63,6 +63,8 @@
     align-content: center;
     border-radius: 35px;
     margin-bottom: 5px;
+    max-width: 200px;
+    max-height: 200px
 }
 
 .entryPage{
@@ -127,6 +129,7 @@
 
 #portfolio {
     max-width: calc(900px - 1rem) !important;
+    display: flex !important;
 }
 
 .slideControl{
@@ -149,3 +152,21 @@
 p {
     max-width: calc(60rem - 16px);
 }
+
+#portRow{
+    justify-content: space-around !important;
+    align-content: center;
+    
+}
+
+#cardBod{
+    background-color: #B3A369
+}
+
+#portText{
+    color: white
+}
+
+
+
+
