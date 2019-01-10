@@ -20,4 +20,4 @@ Reactstrap
 
 Code link examples are listed on the portfolio page with links to the deployed applications.
 
-Please feel free to contact me at smathewsbd@gmail.com
+Please feel free to contact me at smathewsbd@gmail.com.
