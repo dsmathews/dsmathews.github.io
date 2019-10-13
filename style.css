@@ -17,7 +17,7 @@
     background-color: #B3A369 !important;
 }
 
-.nav-link, .navbar-brand, #hamburger, #navbarNav, footer, .footer1, #businessText, #businessText4 {
+.nav-link, .navbar-brand, #hamburger, #navbarNav, footer, .footer1, .businessText, .businessText4 {
     color: white !important;
 }
 
@@ -153,20 +153,22 @@ p {
     max-width: calc(60rem - 16px);
 }
 
-#portRow{
+.portRow{
     justify-content: space-around !important;
     align-content: center;
     
 }
 
-#cardBod{
+.cardBod{
     background-color: #B3A369
 }
 
-#portText{
+.portText{
     color: white
 }
 
-
+.university{
+    color: #B3A369;
+}
 
 
